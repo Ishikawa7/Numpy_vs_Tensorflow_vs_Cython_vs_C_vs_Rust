@@ -1,0 +1,85 @@
+H/W path         Device          Class          Description
+===========================================================
+                                 system         Inspiron 3891 (0A4B)
+/0                               bus            0YF8P5
+/0/1                             memory         1MiB BIOS
+/0/400                           processor      Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+/0/400/700                       memory         384KiB L1 cache
+/0/400/701                       memory         1536KiB L2 cache
+/0/400/702                       memory         12MiB L3 cache
+/0/1000                          memory         8GiB System Memory
+/0/1000/0                        memory         8GiB DIMM DDR4 Synchronous 3200 MHz (0,3 ns)
+/0/1000/1                        memory         [empty]
+/0/100                           bridge         Comet Lake-S 6c Host Bridge/DRAM Controller
+/0/100/1                         bridge         6th-10th Gen Core Processor PCIe Controller (x16)
+/0/100/1/0       /dev/fb0        display        TU116 [GeForce GTX 1650 SUPER]
+/0/100/1/0.1     card1           multimedia     TU116 High Definition Audio Controller
+/0/100/1/0.1/0   input17         input          HDA NVidia HDMI/DP,pcm=3
+/0/100/1/0.1/1   input18         input          HDA NVidia HDMI/DP,pcm=7
+/0/100/1/0.1/2   input19         input          HDA NVidia HDMI/DP,pcm=8
+/0/100/1/0.1/3   input20         input          HDA NVidia HDMI/DP,pcm=9
+/0/100/1/0.1/4   input21         input          HDA NVidia HDMI/DP,pcm=10
+/0/100/1/0.1/5   input22         input          HDA NVidia HDMI/DP,pcm=11
+/0/100/1/0.2                     bus            TU116 USB 3.1 Host Controller
+/0/100/1/0.2/0   usb3            bus            xHCI Host Controller
+/0/100/1/0.2/1   usb4            bus            xHCI Host Controller
+/0/100/1/0.3                     bus            TU116 USB Type-C UCSI Controller
+/0/100/2         /dev/fb0        display        CometLake-S GT2 [UHD Graphics 630]
+/0/100/14                        bus            Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller
+/0/100/14/0      usb1            bus            xHCI Host Controller
+/0/100/14/0/2    card2           multimedia     C-Media Electronics Inc. Cmedia Audio
+/0/100/14/0/4    card3           multimedia     C-Media Electronics Inc. Cmedia Audio
+/0/100/14/0/5    card4           multimedia     Trust QHD Webcam: Trust QHD Web
+/0/100/14/0/6    input5          input          dakai PS/2+USB Keyboard
+/0/100/14/0/7    card5           multimedia     Q9-1
+/0/100/14/0/8    input11         input          PixArt MSI GM08 OpticalMouse Keyboard
+/0/100/14/0/e                    communication  AX201 Bluetooth
+/0/100/14/1      usb2            bus            xHCI Host Controller
+/0/100/14.2                      memory         RAM memory
+/0/100/14.3      wlp0s20f3       network        Tiger Lake PCH CNVi WiFi
+/0/100/15                        bus            Tiger Lake-H Serial IO I2C Controller #0
+/0/100/16                        communication  Tiger Lake-H Management Engine Interface
+/0/100/17        scsi0           storage        Intel Corporation
+/0/100/17/0      /dev/sda        disk           1TB WDC WD10EZEX-75W
+/0/100/17/0/1    /dev/sda1       volume         127MiB reserved partition
+/0/100/17/0/2    /dev/sda2       volume         431GiB Windows NTFS volume
+/0/100/17/1      /dev/cdrom      disk           DVD+-RW GU90N
+/0/100/1b                        bridge         Intel Corporation
+/0/100/1b/0      /dev/nvme0      storage        BC711 NVMe SK hynix 256GB
+/0/100/1b/0/0    hwmon0          disk           NVMe disk
+/0/100/1b/0/2    /dev/ng0n1      disk           NVMe disk
+/0/100/1b/0/1    /dev/nvme0n1    disk           256GB NVMe disk
+/0/100/1b/0/1/1                  volume         179MiB Windows FAT volume
+/0/100/1b/0/1/2  /dev/nvme0n1p2  volume         127MiB reserved partition
+/0/100/1b/0/1/3  /dev/nvme0n1p3  volume         96GiB Windows NTFS volume
+/0/100/1b/0/1/4  /dev/nvme0n1p4  volume         989MiB Windows NTFS volume
+/0/100/1b/0/1/5  /dev/nvme0n1p5  volume         19GiB Windows NTFS volume
+/0/100/1b/0/1/6  /dev/nvme0n1p6  volume         1421MiB Windows NTFS volume
+/0/100/1b/0/1/7  /dev/nvme0n1p7  volume         3905MiB Linux swap volume
+/0/100/1b/0/1/8  /dev/nvme0n1p8  volume         116GiB EXT4 volume
+/0/100/1c                        bridge         Tiger Lake-H PCI Express Root Port #5
+/0/100/1c/0      enp3s0          network        RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+/0/100/1f                        bridge         Intel Corporation
+/0/100/1f/0                      system         PnP device PNP0c02
+/0/100/1f/1                      system         PnP device PNP0b00
+/0/100/1f/2                      generic        PnP device INT3f0d
+/0/100/1f/3                      system         PnP device PNP0c02
+/0/100/1f/4                      system         PnP device PNP0c02
+/0/100/1f/5                      system         PnP device PNP0c02
+/0/100/1f/6                      system         PnP device PNP0c02
+/0/100/1f/7                      system         PnP device PNP0c02
+/0/100/1f.3      card0           multimedia     Intel Corporation
+/0/100/1f.3/0    input24         input          HDA Intel PCH HDMI/DP,pcm=3
+/0/100/1f.3/1    input25         input          HDA Intel PCH HDMI/DP,pcm=7
+/0/100/1f.3/2    input26         input          HDA Intel PCH HDMI/DP,pcm=8
+/0/100/1f.3/3    input27         input          HDA Intel PCH HDMI/DP,pcm=9
+/0/100/1f.3/4    input28         input          HDA Intel PCH HDMI/DP,pcm=10
+/0/100/1f.4                      bus            Tiger Lake-H SMBus Controller
+/0/100/1f.5                      bus            Tiger Lake-H SPI Controller
+/1                               power          
+/2               input0          input          Power Button
+/3               input1          input          Sleep Button
+/4               input14         input          Dell Privacy Driver
+/5               input15         input          Dell WMI hotkeys
+/6               input2          input          Power Button
+/7               input23         input          Video Bus
