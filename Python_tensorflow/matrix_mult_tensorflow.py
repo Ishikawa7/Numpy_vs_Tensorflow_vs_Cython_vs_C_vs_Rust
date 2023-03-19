@@ -8,12 +8,14 @@ import time
 # Enable eager execution
 tf.compat.v1.enable_eager_execution()
 
+N = 10
+
 # Create two random matrices
-a = tf.constant(np.random.rand(1000, 1000), name='a')
-b = tf.constant(np.random.rand(1000, 1000), name='b')
+a = tf.constant(np.random.rand(N, N), name='a')
+b = tf.constant(np.random.rand(N, N), name='b')
 
 mean_time = 0
-for i in range(10):
+for i in range(100):
 
 
     # Compute the matrix multiplication
@@ -25,5 +27,5 @@ for i in range(10):
 
     mean_time += end_time - start_time
 
-print("Mean execution time:", mean_time/10, "seconds")
+print("Mean execution time:", mean_time/100, "seconds")
 

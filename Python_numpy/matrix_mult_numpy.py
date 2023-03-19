@@ -4,10 +4,12 @@
 import numpy as np
 import time
 
+N = 1000
+
 mean_time = 0
 # Create two random matrices
-a = np.random.rand(1000, 1000)
-b = np.random.rand(1000, 1000)
+a = np.random.rand(N, N)
+b = np.random.rand(N, N)
 
 for i in range(100):
     # Compute the matrix multiplication
