@@ -8,7 +8,11 @@ The languages and packages tested include:
 - Python Tensorflow (built in method, no GPU)
 - Cython (naive)
 
+For each, between 10 and 100 runs were conducted, and the average was taken as result
+
 The matrix dimensions tested were: 10x10, 100x100, 1000x1000
+
+
 
 ## Hardware
 The tests were done on my machine whose technical details can be found in "hardwareinfo.txt".
