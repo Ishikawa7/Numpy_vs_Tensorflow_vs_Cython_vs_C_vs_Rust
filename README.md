@@ -5,7 +5,7 @@ The languages and packages tested include:
 - C language (slightly optimized)
 - Rust (naive)
 - Python Numpy (built in method)
-- Python Tensorflow (built in method)
+- Python Tensorflow (built in method, no GPU)
 - Cython (naive)
 
 The matrix dimensions tested were: 10x10, 100x100, 1000x1000
