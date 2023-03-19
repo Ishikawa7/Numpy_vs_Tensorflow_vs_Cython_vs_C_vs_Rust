@@ -19,9 +19,6 @@ Matrix multiplication is a fundamental operation in many scientific and engineer
 ## Results
 The results of the benchmark are provided in the "results.csv" file, which contains the execution times for each language and package.
 
-```{r, echo=FALSE, warning=FALSE}
-library(flextable) #you can use another table library, if you want
-flextable(read.csv("results.csv"))
-```
+<img title="Results Table" alt="Results Table" src="/results.png">
 
 
