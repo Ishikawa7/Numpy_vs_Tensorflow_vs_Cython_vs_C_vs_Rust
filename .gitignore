@@ -1,3 +1,6 @@
 /env
 /rust_proj
 /cython/build
+/.vscode
+.vscode
+
