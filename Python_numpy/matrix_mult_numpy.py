@@ -1,6 +1,6 @@
-# compute a matrix multiplication of two random matrices 1000x1000 hundred times with numpy
-# and print the mean time it took to compute the result
-#
+# matrix multiplication of two random matrices 1000x1000 hundred times with numpy
+# print the mean time it took to compute the result
+
 import numpy as np
 import time
 

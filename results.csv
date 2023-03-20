@@ -3,4 +3,5 @@ Matrix Dimension,C (naive),C (slightly optimized),Cython (naive),Rust (naive),Nu
 100x100,0.003495,0.002714,0.166,0.000903,0.0000413,0.00016
 1000x1000,5.89,0.0335,213.322,1.14,0.0139,0.0174
 ,,,,,,
+,,,,,,
 Unit: seconds,,,,,,
