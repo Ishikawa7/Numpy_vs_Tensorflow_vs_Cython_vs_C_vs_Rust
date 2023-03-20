@@ -24,4 +24,10 @@ The results of the benchmark are provided in the "results.csv" file, which conta
 
 <img title="Results Table" alt="Results Table" src="/results.png">
 
+<img title="Results 10x10 matrix multiplication" alt="Results 10x10 matrix multiplication" src="/results_10x10_matrix_mult.png">
+
+<img title="Results 100x100 matrix multiplication" alt="Results 100x100 matrix multiplication" src="/results_100x100_matrix_mult.png">
+
+<img title="Results 1000x1000 matrix multiplication" alt="Results 1000x1000 matrix multiplication" src="/results_1000x1000_matrix_mult.png">
+
 
