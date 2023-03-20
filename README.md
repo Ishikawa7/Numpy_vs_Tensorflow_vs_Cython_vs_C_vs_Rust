@@ -7,7 +7,7 @@ The languages and packages tested include:
 - Python Numpy (built in method)
 - Python Tensorflow (built in method, no GPU)
 - Python (naive)
-- Cython (naive)
+- Cython (naive + compiling optimization options enabled) 
 
 For each, between 10 and 100 runs were conducted, and the average was taken as result
 
